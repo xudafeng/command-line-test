@@ -17,7 +17,7 @@
 [download-image]: https://img.shields.io/npm/dm/command-line-test.svg?style=flat-square
 [download-url]: https://npmjs.org/package/command-line-test
 
-> command-line-test
+> command-line test tool for Node.js
 
 ## Installment
 
@@ -48,7 +48,9 @@ describe('test', function() {
 
 ## Sample
 
-[macacajs/macaca-cli](//github.com/macacajs/macaca-cli/tree/master/test)
+- [macacajs/macaca-cli](//github.com/macacajs/macaca-cli/tree/master/test)
+- [xudafeng/startserver](//github.com/xudafeng/startserver/tree/master/test)
+- [xudafeng/detect-port](//github.com/xudafeng/detect-port/tree/master/test)
 
 ## License
 

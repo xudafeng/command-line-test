@@ -27,6 +27,8 @@ $ npm i command-line-test --save-dev
 
 ## Usage
 
+`fork`, `spawn`, `exec`, `execFile` supported.
+
 ```javascript
 describe('test', function() {
   it('constructor should be ok', function() {
@@ -36,6 +38,14 @@ describe('test', function() {
   it('exec method should be ok with yeild', function *() {
     const cliTest = new CliTest();
     const res = yield cliTest.exec('cat package.json');
+    /**
+    * res return
+    * {
+    *   error,
+    *   stdout,
+    *   stderr
+    * }
+    */
     const _pkg = JSON.parse(res.stdout);
     pkg.name.should.be.equal(_pkg.name);
   });

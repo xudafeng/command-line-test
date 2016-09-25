@@ -1,6 +1,6 @@
 {
   "name": "command-line-test",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "command-line test tool for Node.js",
   "keywords": ["test", "unittest"],
   "main": "index.js",

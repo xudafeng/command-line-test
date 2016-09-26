@@ -18,6 +18,7 @@ var CliTest = require('..');
 const pkg = require('../package');
 
 describe('test', function() {
+
   it('constructor should be ok', function() {
     CliTest.should.be.ok();
   });

@@ -72,9 +72,12 @@ describe('test', function() {
 
 ## Sample
 
-- [macacajs/macaca-cli](//github.com/macacajs/macaca-cli/tree/master/test)
-- [xudafeng/startserver](//github.com/xudafeng/startserver/tree/master/test)
-- [xudafeng/detect-port](//github.com/xudafeng/detect-port/tree/master/test)
+- [macacajs/macaca-cli](//github.com/macacajs/macaca-cli/)
+- [macacajs/app-inspector](//github.com/macacajs/app-inspector/)
+- [xudafeng/startserver](//github.com/xudafeng/startserver/)
+- [xudafeng/detect-port](//github.com/xudafeng/detect-port/)
+- [reliablejs/reliable-master](//github.com/reliablejs/reliable-master/)
+- [reliablejs/reliable-macaca-slave](//github.com/reliablejs/reliable-macaca-slave)
 
 ## License
 

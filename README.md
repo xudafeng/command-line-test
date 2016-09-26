@@ -30,6 +30,8 @@ $ npm i command-line-test --save-dev
 `fork`, `spawn`, `exec`, `execFile` supported.
 
 ```javascript
+const CliTest = require('command-line-test');
+
 describe('test', function() {
   it('constructor should be ok', function() {
     CliTest.should.be.ok();

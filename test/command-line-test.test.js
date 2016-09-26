@@ -17,7 +17,7 @@ var CliTest = require('..');
 
 const pkg = require('../package');
 
-describe('test', function() {
+describe('unit test', function() {
 
   it('constructor should be ok', function() {
     CliTest.should.be.ok();
@@ -25,9 +25,12 @@ describe('test', function() {
 
   it('exec method should be ok with yeild', function *() {
     const cliTest = new CliTest();
-    const res = yield cliTest.exec('cat package.json');
+    var res = yield cliTest.exec('cat package.json');
     const _pkg = JSON.parse(res.stdout);
     pkg.name.should.be.equal(_pkg.name);
+    cliTest.reset();
+    res = yield cliTest.exec('cat README.md');
+    res.stdout.should.containEql(_pkg.name);
   });
 
   it('exec method should be ok with promise', function(done) {

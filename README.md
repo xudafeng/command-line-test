@@ -21,7 +21,7 @@
 
 ## Installment
 
-```shell
+```bash
 $ npm i command-line-test --save-dev
 ```
 
@@ -74,15 +74,12 @@ describe('test', function() {
 
 ## Sample
 
-- [macacajs/macaca-cli](//github.com/macacajs/macaca-cli/)
-- [macacajs/app-inspector](//github.com/macacajs/app-inspector/)
-- [xudafeng/startserver](//github.com/xudafeng/startserver/)
-- [xudafeng/detect-port](//github.com/xudafeng/detect-port/)
+- [xudafeng/macaca-cli](//github.com/xudafeng/macaca-cli/)
+- [xudafeng/app-inspector](//github.com/xudafeng/app-inspector/)
+- [xudafeng/detect-port](//github.com/node-modules/detect-port/)
 - [reliablejs/reliable-master](//github.com/reliablejs/reliable-master/)
 - [reliablejs/reliable-macaca-slave](//github.com/reliablejs/reliable-macaca-slave)
 
 ## License
 
 The MIT License (MIT)
-
-Copyright (c) 2015 xdf
